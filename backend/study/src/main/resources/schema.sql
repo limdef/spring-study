@@ -1,0 +1,7 @@
+CREATE TABLE if NOT EXISTS users
+(
+    name      VARCHAR(255) NOT NULL PRIMARY KEY,
+    password  VARCHAR(255) NOT NULL,
+    authority VARCHAR(255) NOT NULL
+);
+
